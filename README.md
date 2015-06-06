@@ -1,1 +1,1 @@
-# EECS-349-Project-Site
+# EECS-349-News-Article-Classifier
