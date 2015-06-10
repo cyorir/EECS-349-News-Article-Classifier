@@ -53,30 +53,33 @@
       </div>
     </div><!-- end navbar -->
     <div class="container">
+      <a class="anchor" id="top"></a>
       <div class="">
-        <a class="anchor" id="top"></a>
         <div class="row">
-          <div class="col-lg-7">
-            <div class='header-area'>
-              <h1>News Article Classifier</h1>
-              <p class="lead"></p>
+          <div class="col-lg-6">
+            <div class='heading'>
+              <h1>Syrian Civil War News Article Classifier</h1>
+              <br>
               <p class="content">
                 Northwestern University
                 <br>
                 EECS 349 - Spring 2015
                 <br>
-                <ul class='content-list'>
+                <ul class='list'>
                   <li><a href="mailto:ericsun2016@u.northwestern.edu">Eric Sun</a></li>
                   <li><a href="mailto:christopherwalker2016@u.northwestern.edu">Christopher Walker</a></li>
                 </ul>
               </p>
               <br>
               <p class="content">
-                <a class="btn btn-primary" href="files/News_Article_Classifier_Final_Report.pdf" target="blank">View Full Report</a></li>
+                <a class="btn btn-primary" style="border-radius: 3px;" href="files/News_Article_Classifier_Final_Report.pdf" target="blank">View Full Report</a></li>
                 <br>
               </p>
               <br><br>
             </div>
+          </div>
+          <div class="col-lg-6" style="padding: 15px 30px 0px 0px;">
+            <img style="width: 100%; height: 100%;" src="imgs/syria-protest.jpg">
           </div>
         </div>
       </div><!-- end top -->
@@ -84,7 +87,7 @@
         <a class="anchor" id="overview"></a>
         <div class="row">
           <div class="col-lg-12 heading">
-            <h1>Overview</h1>
+            <h2>Overview</h2>
           </div>
         </div>
         <div class="row">
@@ -99,7 +102,7 @@
         <a class="anchor" id="motivation"></a>
         <div class="row">
           <div class="col-lg-12 heading">
-            <h1>Motivation</h1>
+            <h2>Motivation</h2>
           </div>
         </div>
         <div class="row">
@@ -110,7 +113,85 @@
           </div>
         </div>
       </div> <!-- end motivation -->
-
+      <div class="page-header">
+        <a class="anchor" id="solution"></a>
+        <div class="row">
+          <div class="col-lg-12 heading">
+            <h2>Solution</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12">
+            <p class="content">
+            No solution we failed.
+            </p>
+          </div>
+        </div>
+      </div> <!-- end solution -->
+      <div class="page-header">
+        <a class="anchor" id="testing"></a>
+        <div class="row">
+          <div class="col-lg-12 heading">
+            <h2>Testing and Training</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12">
+            <br>
+            <div class="heading">
+              <h4><strong>Dataset</strong></h4>
+            </div><!-- end dataset heading -->
+            <p class="content">
+            Our dataset is composed of news articles from a variety of news sources around the world. Each data entry is the text from a single news article. We wanted to get media coverage from as many countries as possible but due to the limited nature of google news source and our restriction of only being able to analyze english news articles we decided to settle on two US, two UK, two Chinese, and one Russian media outlet as the sources for our dataset. We chose these four countries in particular because we wanted to see if the biases of each countries' government were reflected in the countries' media. The American and British governments were some of the most vocal in speaking out against the Syrian regime while Russian was one of the most pro regime and the Chinese government was generally more neutral. We wanted to see if these same biases were apparent in the countries' biggest media outlets.
+            </p><!-- end dataset intro -->
+            <p class="content">
+            We used the following sources:
+              <ul class="list">
+                <li>BBC (United Kingdom)</li>
+                <li>Guardian (United Kingdom)</li>
+                <li>CNN (United States)</li>
+                <li>Fox (United States)</li>
+                <li>Washington Post (United States)</li>
+                <li>Globaltimes (China)</li>
+                <li>Xinhua (China)</li>
+                <li>RT (Russia)</li>
+              </ul>
+            </p><!-- end list section -->
+            <p class="content">
+            We found our data by using the google news archive. We searched for articles related to the Syrian Civil War from the period Jan 1 2012 to December 31 2013. We used the Python Library BeautifulSoup to parse the actual text of each article.
+            </p><!-- end dataset section -->
+            <br>
+            <div class="heading">
+              <h4><strong>Training</strong></h4>
+            </div><!-- end training header -->
+            <p class="content">
+            What training?
+            </p><!-- end training section -->
+            <br>
+            <div class="heading">
+              <h4><strong>Testing</strong></h4>
+            </div><!-- end testing header -->
+            <p class="content">
+            What testing?
+            </p><!-- end testing section -->
+          </div>
+        </div>
+      </div> <!-- end test and training -->
+      <div class="page-header">
+        <a class="anchor" id="results"></a>
+        <div class="row">
+          <div class="col-lg-12 heading">
+            <h2>Results</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12">
+            <p class="content">
+            No results, failed.
+            </p>
+          </div>
+        </div>
+      </div> <!-- end results -->
 
     </div><!-- end container -->
   </body>

@@ -2,11 +2,9 @@ html,body {
   height:100%;
   width:100%;
   padding-top: 40px;
+  background-image: url(../imgs/seamless_paper_texture.png);
 }
 
-.heading {
-  /*border-bottom: 1px solid black;*/
-}
 
 a.anchor{
   display: block; 
@@ -15,23 +13,18 @@ a.anchor{
   visibility: hidden;
 }
 
-.cust-footer {
-  padding-top:20px;
-  border-top: 1px solid black;
-}
-
 .header-area {
   padding-left:50px;
 }
 
 p.content {
-  font-size: 20px;
-  font-weight: 200;
+  font-size: 18px;
+  font-weight: 500;
 }
 
-.content-list {
-  font-size: 20px;
-  font-weight: 200;
+.list {
+  font-size: 18px;
+  font-weight: 500;
 }
 
 .overview-image {
