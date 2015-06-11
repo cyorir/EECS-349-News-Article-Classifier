@@ -123,7 +123,7 @@
         <div class="row">
           <div class="col-lg-12">
             <p class="content">
-            No solution we failed.
+            The solution was to test a set of different classifiers. Naive Bayes, Nearest Neighbor, Multinomial Logistic Regression (Maximum Entropy), Decision Tree, and SVM methods were tested. Naive Bayes, Maximum Entropy, and Decision Tree methods from NLTK were used. The SVM method used was from the Sklearn package for Python. The Nearest Neighbor method was manually implemented. Nearest Neighbor was found to be unsuitable for the task, and was dropped. The remaining 4 methods were trained using unigram attributes, unigram attributes with stopwords removed, and bigram attributes.
             </p>
           </div>
         </div>
@@ -162,17 +162,10 @@
             </p><!-- end dataset section -->
             <br>
             <div class="heading">
-              <h4><strong>Training</strong></h4>
-            </div><!-- end training header -->
-            <p class="content">
-            What training?
-            </p><!-- end training section -->
-            <br>
-            <div class="heading">
-              <h4><strong>Testing</strong></h4>
+              <h4><strong>Training, Validation, and Testing</strong></h4>
             </div><!-- end testing header -->
             <p class="content">
-            What testing?
+            Accuracy was checked using the Repeated Random Sub-Sampling validation method. This consisted of selecting random subsets of the data to use for training, then using the remainder of the data for testing. An average over 10 trials was then used to determine accuracy. The training : testing data ratio ranged from 0.1:0.9 to 0.9:0.1, with nine different splits used in for each feature set and method.
             </p><!-- end testing section -->
           </div>
         </div>
@@ -204,8 +197,14 @@
 
           </div><!-- end padding -->
         </div><!-- end graph row -->
+        <div class="row">
+          <div class="col-lg-12">
+            <p class="content">
+            The most useful methods were Naive Bayes with a low number of training examples and SVM with a high number of training examples. Naive Bayes, SVM, and Decision Tree all outperformed ZeroR, with Maximum Entropy matching the performance of ZeroR. Bigrams did not provide an improvement in accuracy compared to unigrams. A variety of attributes were important to the task, including both vocabulary unrelated to the Syrian Civil War (such as "since," "particularly") and vocabulary relevant to the Syrian Civil War (such as "sarin," "militants," "the uprising").
+            </p>
+          </div><!-- end results summary -->
+        </div><!-- end results roll -->
       </div> <!-- end results -->
-
     </div><!-- end container -->
   </body>
 </html>
