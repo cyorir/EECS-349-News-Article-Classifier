@@ -44,3 +44,7 @@ p.content {
 .results-diagram {
   height:200px;
 }
+
+h2 {
+  font-weight: 700;
+}
